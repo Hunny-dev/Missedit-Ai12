@@ -1,23 +1,24 @@
-# MissedIt AI
+# MissedIt AI — Sunset Glow Edition
 
-**Hackathon prototype:** a responsive chat catch-up dashboard that highlights potential tasks, deadlines, decisions, and mentions.
+A responsive chat catch-up dashboard with a premium golden-yellow, sunset-orange, and warm ivory visual theme, plus a light/dark toggle.
 
-## Run locally
-1. Download or clone this repository.
-2. Open `index.html` in a modern browser.
-3. Select **Load demo chat**, then **Analyze conversation**.
-4. Paste your own sample conversation to try it.
+## Try it
+1. Open `index.html` in a modern browser, or publish this repository with GitHub Pages.
+2. Tap **Try sample conversation**.
+3. Tap **Find what I missed**.
+4. Explore filters and mark action items complete.
+5. Use the moon/sun button to switch between light and dark themes.
 
-No installation or build step is required.
-
-## Current capabilities
-- Responsive HTML/CSS/JavaScript dashboard
-- Paste chat text and analyze it in the browser with lightweight rules
-- Filter findings by priority, tasks, deadlines, decisions, and mentions
-- View source message snippets and check off potential tasks
+## Features
+- Responsive desktop and mobile layout
+- Sunset Glow theme with light and dark modes
+- Paste chat and browser-side heuristic analysis
+- Summary, ranked findings, decisions, potential tasks, deadlines, and mentions
+- Filter tabs, source snippets, task checkboxes
+- Synthetic sample conversation
 
 ## Important limitations
-This is a frontend prototype, not a trained AI model. Its rule-based analysis may miss or misclassify messages. It does not send pasted chat text to a cloud AI API or deliberately persist chat text. Hosting infrastructure has not been independently audited. Verify all findings against the original conversation.
+This is a frontend prototype using simple keyword rules, not a trained AI model. It can miss context or misclassify messages. This code analyzes pasted text in the browser and does not send it to a cloud AI API. Chat text is not deliberately persisted; the theme preference is stored in local browser storage. Hosting infrastructure has not been independently audited. Verify findings against the original conversation.
 
-## Tech stack
-HTML, CSS, vanilla JavaScript. No external dependencies.
+## Technology
+HTML, CSS, and vanilla JavaScript. No dependencies or build step required.
