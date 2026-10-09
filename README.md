@@ -1,4 +1,4 @@
-# MissedIt AI — Glassmorphism + Motion
+# WhatsNew— Glassmorphism + Motion
 
 Responsive chat catch-up dashboard with frosted-glass styling, idle ambient gradients, floating background orbs, subtle card entrance/hover motion, and animated pop-up panels for Quick activities and Top missed items.
 
